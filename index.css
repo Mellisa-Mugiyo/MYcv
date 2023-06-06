@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');;
+
+*{padding: 0;margin:0;list-style-type: none;}
+body{font-family:'lato',sans-seriff;padding: 30px;   
+}
+body{
+    background-color: grey;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+  }
+
+
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+h5 {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+li {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+h5,h4,h2{
+  color:black;
+}
+
+img {
+  margin: 2%;
+  border-radius: 25%;
+}
+img:nth-of-type(even) {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
